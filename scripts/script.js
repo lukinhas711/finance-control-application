@@ -118,23 +118,39 @@ const Utils = {
 }
 
 const Form = {
-  validateFields(){
-    console.log('validar os dados')
+  description: document.querySelector('input#description'),
+  amount: document.querySelector('input#amount'),
+  date: document.querySelector('input#date'),
+
+  getValues(){
+    return {
+      description: Form.description.value,
+      amount: Form.amount.value,
+      date: Form.date.value
+    }
   },
-  formatData(){
-    console.log('formatar os dados')
+
+  validateFields(){
+    const {description, amount, date} = Form.getValues()
+    if(description.trim() === '' || amount.trim() || date.trim()){
+      throw new Error('por favor preencha todos os campos')
+    }
   },
 
   submit(event){
-    event.preventDefault()
-    //verificar se todas as informações foram preenchidas
-    Form.validateFields()
-    //formatar os dados e salvar
-    Form.formatData()
-    //salvar
-    //apagar os dados do formulario 
-    //fechar o modal
-    //atualizar a aplicação
+    try {
+      event.preventDefault()
+      //verificar se todas as informações foram preenchidas
+      Form.validateFields()
+      //formatar os dados e salvar
+      //salvar
+      //apagar os dados do formulario 
+      //fechar o modal
+      //atualizar a aplicação
+    } catch (error) {
+      alert('Por favor, preencha todos os campos')
+    }
+    
   }
 }
 
