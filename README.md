@@ -7,7 +7,7 @@
 <h2 align="center">Layout mobile da aplicação</h2>
 
 <div align="center">
-  <a href="https://lukinhas711.github.io/pages/project-finance-control-application/index.html"><img src="https://github.com/lukinhas711/finance-control-application/blob/main/README/dev%20finance%20mobile.png" title="screenshot dversão mobile do layout"></a>
+  <a href="https://lukinhas711.github.io/finance-control-application/"><img src="https://github.com/lukinhas711/finance-control-application/blob/main/README/dev%20finance%20mobile.png" title="screenshot dversão mobile do layout"></a>
 </div>
 
 
