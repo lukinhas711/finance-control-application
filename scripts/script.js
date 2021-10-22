@@ -168,15 +168,10 @@ const Form = {
   submit(event){
     event.preventDefault()
     try {
-    //verificar se todas as informações foram preenchidas
      Form.validateFields()
-     //formatar os dados e salvar
      const transaction = Form.formatFields()
-     //salvar
      Transactions.add(transaction)
-     //apagar os dados do formulario 
      Form.cleanFields()
-     //fechar o modal
      Modal.toggle()
     } catch (error) {
       alert(error.message)
