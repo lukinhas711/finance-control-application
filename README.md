@@ -14,7 +14,7 @@
 <h2 align="center">Layout desktop da aplicação</h2>
 
 <div align="center">
-  <a href="https://lukinhas711.github.io/pages/project-finance-control-application/index.html"><img src="https://github.com/lukinhas711/finance-control-application/blob/main/README/dev%20finance.png" title="screenshot dversão desktop do layout"></a>
+  <a href="https://lukinhas711.github.io/finance-control-application/"><img src="https://github.com/lukinhas711/finance-control-application/blob/main/README/dev%20finance.png" title="screenshot dversão desktop do layout"></a>
 </div>
 
 <h4 align="center"> 
